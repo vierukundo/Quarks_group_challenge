@@ -50,7 +50,7 @@ The API will run at: `http://localhost:3000`
 
 ---
 
-## 📬 API Endpoints
+## API Endpoints
 
 ### ✅ Create a User
 
@@ -61,11 +61,11 @@ The API will run at: `http://localhost:3000`
 ```json
 {
   "name": "John Doe",
-  "email": "john@example.com"
+  "email": "john@gmail.com"
 }
 ```
 
-- **Example cURL**:
+- **Example**:
 
 ```bash
 curl -X POST http://localhost:3000/users \
@@ -90,7 +90,7 @@ curl -X POST http://localhost:3000/users \
 - **URL**: `GET /users/:id`
 - **Description**: Retrieves a user by their ID.
 
-- **Example cURL**:
+- **Example**:
 
 ```bash
 curl http://localhost:3000/users/<user-id>
@@ -116,7 +116,7 @@ curl http://localhost:3000/users/<user-id>
 
 ---
 
-## ⚠️ Error Handling
+## Error Handling
 
 | Status Code | Description                      |
 | ----------- | -------------------------------- |
@@ -125,7 +125,7 @@ curl http://localhost:3000/users/<user-id>
 
 ---
 
-## 📝 Notes
+## Notes
 
 - Data is stored in memory (no database).
 - User IDs are generated using UUID v4.
@@ -133,6 +133,6 @@ curl http://localhost:3000/users/<user-id>
 
 ---
 
-## 👨‍💻 Author
+## Author
 
 Built for the Quarks Group LTD Backend Internship Assessment – 2025
