@@ -61,7 +61,7 @@ The API will run at: `http://localhost:3000`
 ```json
 {
   "name": "John Doe",
-  "email": "john@gmail.com"
+  "email": "john@example.com"
 }
 ```
 
@@ -70,7 +70,7 @@ The API will run at: `http://localhost:3000`
 ```bash
 curl -X POST http://localhost:3000/users \
   -H "Content-Type: application/json" \
-  -d '{"name":"John Doe","email":"john@gmail.com"}'
+  -d '{"name":"John Doe","email":"john@example.com"}'
 ```
 
 - **Success Response**:
@@ -79,7 +79,7 @@ curl -X POST http://localhost:3000/users \
 {
   "id": "187bb850-622b-4e3b-bfd3-26fccf28b084",
   "name": "John Doe",
-  "email": "john@gmail.com"
+  "email": "john@example.com"
 }
 ```
 
@@ -102,7 +102,7 @@ curl http://localhost:3000/users/<user-id>
 {
   "id": "187bb850-622b-4e3b-bfd3-26fccf28b084",
   "name": "John Doe",
-  "email": "john@gmail.com"
+  "email": "john@example.com"
 }
 ```
 
