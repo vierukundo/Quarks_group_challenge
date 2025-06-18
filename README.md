@@ -130,9 +130,3 @@ curl http://localhost:3000/users/<user-id>
 - Data is stored in memory (no database).
 - User IDs are generated using UUID v4.
 - This API is meant for demonstration/testing purposes only.
-
----
-
-## Author
-
-Built for the Quarks Group LTD Backend Internship Assessment – 2025
